@@ -142,7 +142,7 @@ elif vi.lower() == 'h':
    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 else:    
     print("⚠ Camera not found → using video file")
-    cap = cv2.VideoCapture(resource_path("video/grass4.mp4"))
+    cap = cv2.VideoCapture(resource_path("video/grass.mp4"))
     
 fps = cap.get(cv2.CAP_PROP_FPS)
 print("="*54)

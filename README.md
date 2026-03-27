@@ -21,8 +21,8 @@ An AI-powered autonomous grass cutting robot using:
 - Arduino communication via serial (COM port)
 
 ## Setup
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install -r requirements.txt 
+- pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+- pip install -r requirements.txt 
 
 ## Run
-python main.py
+- python main.py
